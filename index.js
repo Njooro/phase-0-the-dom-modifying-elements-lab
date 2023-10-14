@@ -1,5 +1,9 @@
+
 // Write your code here!
 main.remove();
 const newHeader = document.createElement("h1");
-document.body.append(newHeader);
-newHeader.textContent = h1victory
+document.body.appendChild(newHeader);
+
+
+let newHeaderId = document.querySelector('h1#victory');
+newHeaderId.textContent = 'New Header Content';
